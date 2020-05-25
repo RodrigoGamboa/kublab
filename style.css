@@ -1,0 +1,576 @@
+
+
+a{
+    color: #ffffff;
+    font-weight: 600; 
+}
+
+body {
+    font-family: 'Averta PE';
+    background-image: url("images/bg.png");
+     background-color: white;
+     background-repeat: repeat-y;
+     background-size: contain;
+     width: auto;
+}
+
+
+.btn{
+    background-color: #0f4c81;
+    opacity: 80%;
+    border-radius: 30px !important;
+    border-style: none;
+    display: inline-block;
+    text-align: center;
+    transition-duration: 0.5s;
+    color: white;
+    font-size: 13pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    
+}
+
+.btn-popup{
+  padding: 6px 8px 6px 8px;
+  font-size: 1rem;
+  color: #6cafde;
+  display: block;
+  background-color: transparent;
+}
+
+.btn p{
+    color: white;
+}
+
+.btn:hover{
+    background-color: #0f4c81;
+    opacity: 100%;
+    color: #e9f7ff;
+}
+
+
+.btn-project{
+    background-color: #0f4c81;
+    opacity: 80%;
+    border-radius: 30px !important;
+    border-style: none;
+    text-align: center;
+    transition-duration: 0.5s;
+    position: relative;
+    margin-top: 20px;
+    color: white;
+    font-size: 13pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    width: 100%;
+}
+
+
+.btn-search{
+    display: inline;
+    background-color: whitesmoke;
+    opacity: 90%;
+    border-radius: 30px;
+    border-style: none;
+    display: inline-block;
+    text-align: center;
+    transition-duration: 0.5s;
+    color: #0f4c81;
+    font-size: 13pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    max-height: 30px;
+    max-width: 30px;
+}
+
+.btn-search:hover{
+    background-color: #e9f7ff;
+    border-radius: 30px;
+    border-style: none;
+    display: inline-block;
+    text-align: center;
+    transition-duration: 0.5s;
+    color: #0f4c81;
+    font-size: 13pt;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+    max-height: 30px;
+    max-width: 30px;
+}
+
+
+.card{
+    border-radius: 30px;
+    color: #0f4c81;
+    background-color: #e9f7ff;
+    border-style: none;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.card p{
+    color: #0f4c81;
+    text-align: left;
+}
+
+.card-body{
+    padding: 10px 0px 10px 0px !important;
+    margin: 0px 0px 0px 0px !important;
+}
+
+
+.card-community{
+    border-radius: 30px;
+    color: #0f4c81;
+    background-color: #e9f7ff;
+    border-style: none;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+
+
+.card-img-top{
+    border-radius: 20px;
+
+}
+
+.card-img-com{
+    border-radius: 20px;
+    width: 50px;
+    left: 50%;
+}
+
+
+.col-6{
+    margin-top: 10%;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: 20px 0px 20px 20px;
+}
+
+
+.dropdown-item:hover {
+    color: #6CAFDE;
+    font-weight: 400;
+}
+
+
+.dropdown-container {
+  display: none;
+  background: none;
+}
+
+
+.dropdown-btn {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.dropdown-btn a {
+  text-decoration: none;
+  font-size: 1rem;
+color: #0f4c81;
+    display: block;
+  text-align: left;
+} 
+
+.dropdown-btn p {
+  font-family: 'Averta PE';
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #6cafde;
+  display: block;
+  text-align: left;
+  margin: inherit;
+  padding: 6px 8px 6px 10px;
+  
+}
+
+
+.dropdown-btn p:hover{
+      color: #064579;
+}
+
+
+.dropdown-item{
+    font-family: 'Averta PE';
+    color: #0f4c81 !important;
+    font-weight: 400;
+}
+
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #064579;
+  color: white;
+  height: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+/* empiezan Media Queries */
+
+@media (min-width: 1000px) {
+    .navbar {
+        width: 100%;
+    }
+    .signin {
+        display: flex;
+    }
+ }
+
+@media screen and (max-width: 768px) {
+
+  
+  .signin {
+    display: none;
+  }
+  .nav-link {
+      font-size: 18px;
+      background-color:#0f4c81;
+      padding-top: 15px;
+      box-shadow: 2px;
+    }
+    .btn-search{
+        display: none;
+    }
+    
+    .form-control {
+        display: none;
+    }
+    .form-inline {
+        display: none;
+    }
+    
+    .sidenav {
+        display: none;
+    }
+    
+    .logo-footer {
+        width: 100% !important;
+    }
+    
+    .col-6{
+        margin-top: 100px !important;
+        min-width: 300px !important;
+    }
+    .card{
+        align-content: center;
+        min-width: 300px;
+        min-height: 400px; 
+    }
+
+    
+
+}
+
+/* Terminan Media Queries */
+
+
+
+
+.footer a{
+    color: #white; 
+    transition-duration: 0.5s;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+    
+}
+
+
+.footer a:hover{
+    color: #6cafde; 
+    transition-duration: 0.5s;
+    font-weight: 400;
+    font-size: 15px;
+
+    text-align: left;
+}
+
+
+
+.formu{
+    align-content: flex-start;
+}
+
+
+.formu h3{
+    font-family: 'Averta PE';
+    font-size: 14pt;
+    text-align: center; 
+    font-weight: 600;"
+    
+}
+.form-control{
+    border-radius: 30px;
+    width: 180px;
+    text-align: center;
+    height: 30px;
+}
+
+.form-search{
+    border-radius: 30px;
+    width: 300px;
+    text-align: center;
+    border: none;
+    
+}
+
+
+.form-project{
+    border-radius: 30px;
+    width: 100%;
+    height: 37px;
+    text-align: center;
+    border: none;
+}
+
+.form-control-search{
+    border-radius: 30px;
+    text-align: center;
+}
+
+
+
+.header{
+    background-color: #0f4c81;
+    border-radius: 30px;
+    border-style: none;
+    align-items: center;
+    }
+
+
+
+h1{
+    color: white;
+    font-family: 'Averta PE';
+    font-weight: 600;
+    font-size: 20pt;
+    padding: 10px;
+}
+
+h2{
+    color: #0f4c81;
+    font-family: 'Averta PE';
+    font-weight: 600;
+    font-size: 20pt;
+    text-align: left;
+}
+
+
+.icon-sidenav{
+    width: 20px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
+
+
+.kublabpng{
+    height: 450px;
+    padding: 10px 0px 0px 0px;
+}
+
+
+.list-item{
+    color: #0f4c81;
+    font-family: 'Averta PE';
+    font-size: 13pt;    
+}
+
+.list-item-title{
+    color: #0f4c81;
+    font-family: 'Averta PE';
+    font-size: 15pt; 
+    font-weight: 600;
+}
+
+.logo-brand{
+    width: 120px;
+}
+
+.logo-footer{
+    width: 50%;
+    margin: 10%;
+}
+
+.logo-contact{
+    width: 220px;
+}
+
+
+.main {
+  font-size: 28px; /* Increased text to enable scrolling */
+  display: flex;
+  justify-content: center;
+}
+
+
+.modal-body{
+    text-align: center;
+}
+
+
+.navbar{
+    background-color: #0f4c81;
+    height: 60px;
+    transition-duration: 0.5s;
+    }
+
+.navbar a.active {
+  background-color: skyblue;
+  color: white;
+}
+
+/* Hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+  display: none;
+}
+
+
+.nav-toggler{
+    width: 30px;
+    margin-top: 3px;
+}
+
+.nav-link{
+    color: white; 
+    transition-duration: 0.5s;
+    display: block;
+}
+
+
+.nav-link-footer {
+    margin-top: 5%;
+    padding: 2%;
+    display: inline-block;
+}
+
+
+.nav-link:hover{
+    color: #6cafde;
+    font-weight: 600; 
+}
+
+.nav-link a:hover{
+    color: #6cafde;
+    font-weight: 600; 
+} 
+.nav-link:active{
+    color: #ff7c3b;
+    font-weight: 600; 
+}
+
+
+
+p{
+    color: #0f4c81;
+    font-family: 'Averta PE';
+    font-size: 13pt;
+}
+
+
+.panel-body h2{
+    color: #0f4c81;
+    font-family: 'Averta PE';
+    font-weight: 600;
+    font-size: 14pt;
+    text-align: center;
+
+}
+
+.panel-body{
+    padding: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+.panel-heading{
+    padding: 15px 0px 10px 0px;
+}
+
+
+.radio-inline{
+    padding: 40px;
+}
+
+
+.search-icon{
+    margin-bottom: 3px;
+    max-width: 20px;
+}
+
+
+.sidenav {
+  position: fixed;
+  background: #e9f7ff;
+  padding: 20px;
+  border-radius: 30px;
+  margin-left: 3%;
+  margin-top: 10%;
+  
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #6cafde;
+  display: block;
+  text-align: left;
+}
+
+.sidenav a:hover {
+  color: #064579;
+}
+
+
+.signin {
+    position: absolute;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 40%;
+}
+
+.sidenav .dropdown-item{
+    font-family: 'Averta PE';
+    color: #0f4c81 !important;
+    font-weight: 400;
+    padding-left: 50px !important;
+}
+
+
+/*! FONTS */
+
+
+
+@font-face {
+    font-family: 'Averta PE';
+    src: url('font/AVERTA PE REGULAR.otf') format('svg'),
+         url('font/AvertaPE-Regular.woff') format('woff),;
+}
+
+/*! CIERRA FONTS */
+
+
+
+.card-img-sm{
+    border-radius: 20px;
+    width: 100px !important;
+
+}
+
